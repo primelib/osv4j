@@ -10,10 +10,10 @@ import io.github.primelib.osv4j.model.V1VulnerabilityList;
 
 import java.util.function.Consumer;
 
-import io.github.primelib.osv4j.spec.OSVDetermineVersionOperationSpec;
-import io.github.primelib.osv4j.spec.OSVGetVulnByIdOperationSpec;
-import io.github.primelib.osv4j.spec.OSVQueryAffectedOperationSpec;
-import io.github.primelib.osv4j.spec.OSVQueryAffectedBatchOperationSpec;
+import io.github.primelib.osv4j.spec.DetermineVersionOperationSpec;
+import io.github.primelib.osv4j.spec.GetVulnByIdOperationSpec;
+import io.github.primelib.osv4j.spec.QueryAffectedOperationSpec;
+import io.github.primelib.osv4j.spec.QueryAffectedBatchOperationSpec;
 
 @Generated(value = "io.github.primelib.primecodegen.javafeign.JavaFeignGenerator")
 public class OSVConsumerApi {
@@ -30,9 +30,9 @@ public class OSVConsumerApi {
      *   <li>body: </li>
      * </ul>
      */
-    public V1VersionMatchList oSVDetermineVersion(Consumer<OSVDetermineVersionOperationSpec> spec) {
-        OSVDetermineVersionOperationSpec r = new OSVDetermineVersionOperationSpec(spec);
-        return api.oSVDetermineVersion(r.body());
+    public V1VersionMatchList determineVersion(Consumer<DetermineVersionOperationSpec> spec) {
+        DetermineVersionOperationSpec r = new DetermineVersionOperationSpec(spec);
+        return api.determineVersion(r.body());
     }
 
     /**
@@ -42,9 +42,9 @@ public class OSVConsumerApi {
      *   <li>id: </li>
      * </ul>
      */
-    public OsvVulnerability oSVGetVulnById(Consumer<OSVGetVulnByIdOperationSpec> spec) {
-        OSVGetVulnByIdOperationSpec r = new OSVGetVulnByIdOperationSpec(spec);
-        return api.oSVGetVulnById(r.id());
+    public OsvVulnerability getVulnById(Consumer<GetVulnByIdOperationSpec> spec) {
+        GetVulnByIdOperationSpec r = new GetVulnByIdOperationSpec(spec);
+        return api.getVulnById(r.id());
     }
 
     /**
@@ -54,9 +54,9 @@ public class OSVConsumerApi {
      *   <li>body: </li>
      * </ul>
      */
-    public V1VulnerabilityList oSVQueryAffected(Consumer<OSVQueryAffectedOperationSpec> spec) {
-        OSVQueryAffectedOperationSpec r = new OSVQueryAffectedOperationSpec(spec);
-        return api.oSVQueryAffected(r.body());
+    public V1VulnerabilityList queryAffected(Consumer<QueryAffectedOperationSpec> spec) {
+        QueryAffectedOperationSpec r = new QueryAffectedOperationSpec(spec);
+        return api.queryAffected(r.body());
     }
 
     /**
@@ -66,9 +66,9 @@ public class OSVConsumerApi {
      *   <li>body: </li>
      * </ul>
      */
-    public V1BatchVulnerabilityList oSVQueryAffectedBatch(Consumer<OSVQueryAffectedBatchOperationSpec> spec) {
-        OSVQueryAffectedBatchOperationSpec r = new OSVQueryAffectedBatchOperationSpec(spec);
-        return api.oSVQueryAffectedBatch(r.body());
+    public V1BatchVulnerabilityList queryAffectedBatch(Consumer<QueryAffectedBatchOperationSpec> spec) {
+        QueryAffectedBatchOperationSpec r = new QueryAffectedBatchOperationSpec(spec);
+        return api.queryAffectedBatch(r.body());
     }
 
 }

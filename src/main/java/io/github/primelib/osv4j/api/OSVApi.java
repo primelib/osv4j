@@ -28,7 +28,7 @@ public interface OSVApi {
         "Content-Type: application/json", 
         "Accept: application/json"
     })
-    V1VersionMatchList oSVDetermineVersion(@NotNull V1VersionQuery body);
+    V1VersionMatchList determineVersion(@NotNull V1VersionQuery body);
 
     /**
      * Return a {@code Vulnerability} object for a given OSV ID.
@@ -39,7 +39,7 @@ public interface OSVApi {
     @Headers({
         "Accept: application/json"
     })
-    OsvVulnerability oSVGetVulnById(@Param("id") @NotNull String id);
+    OsvVulnerability getVulnById(@Param("id") @NotNull String id);
 
     /**
      * Query vulnerabilities for a particular project at a given commit or version.
@@ -51,7 +51,7 @@ public interface OSVApi {
         "Content-Type: application/json", 
         "Accept: application/json"
     })
-    V1VulnerabilityList oSVQueryAffected(@NotNull V1Query body);
+    V1VulnerabilityList queryAffected(@NotNull V1Query body);
 
     /**
      * Query vulnerabilities (batched) for given package versions and commits. This currently allows a maximum of 1000 package versions to be included in a single query.
@@ -63,6 +63,6 @@ public interface OSVApi {
         "Content-Type: application/json", 
         "Accept: application/json"
     })
-    V1BatchVulnerabilityList oSVQueryAffectedBatch(@NotNull V1BatchQuery body);
+    V1BatchVulnerabilityList queryAffectedBatch(@NotNull V1BatchQuery body);
 
 }
