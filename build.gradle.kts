@@ -9,9 +9,9 @@ projectConfiguration {
     type.set(me.philippheuer.projectcfg.domain.ProjectType.LIBRARY)
     javaVersion.set(JavaVersion.VERSION_17)
     artifactGroupId.set("io.github.primelib")
-    artifactId.set("perspective4j")
+    artifactId.set("osv4j")
     artifactDisplayName.set("osv4j")
-    artifactDescription.set("A Java Wrapper for the Perspective API")
+    artifactDescription.set("Java Client for the OSV API: https://osv.dev/")
 
     pom = { pom ->
         pom.url.set("https://github.com/primelib/osv4j")
@@ -30,9 +30,9 @@ projectConfiguration {
         }
         pom.licenses {
             license {
-                name.set("MIT")
+                name.set("MIT License")
                 distribution.set("repo")
-                url.set("https://github.com/primelib/perspective4j/blob/main/LICENSE")
+                url.set("https://raw.githubusercontent.com/primelib/osv4j/main/LICENSE")
             }
         }
         pom.scm {
