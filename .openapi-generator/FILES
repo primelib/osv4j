@@ -4,6 +4,7 @@ gradle/wrapper/gradle-wrapper.jar
 gradle/wrapper/gradle-wrapper.properties
 gradlew
 gradlew.bat
+renovate.json
 settings.gradle.kts
 src/main/java/io/github/primelib/osv4j/OSVFactory.java
 src/main/java/io/github/primelib/osv4j/OSVFactorySpec.java
