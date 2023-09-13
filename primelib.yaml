@@ -1,7 +1,7 @@
+release: true
 modules:
-  - name: osv-rest
-    dir: .
-    spec_file: openapi.json
+  - spec_file: openapi.json
+    spec_format: openapi
     spec_url: https://osv.dev/docs/osv_service_v1.swagger.json
     spec_script: |
       jq '.host = "api.osv.dev"' "$1" | sponge "$1" # set api host
