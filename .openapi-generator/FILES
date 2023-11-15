@@ -33,10 +33,8 @@ src/main/java/io/github/primelib/osv4j/model/V1FileHash.java
 src/main/java/io/github/primelib/osv4j/model/V1Query.java
 src/main/java/io/github/primelib/osv4j/model/V1VersionMatch.java
 src/main/java/io/github/primelib/osv4j/model/V1VersionMatchList.java
-src/main/java/io/github/primelib/osv4j/model/V1VersionQuery.java
 src/main/java/io/github/primelib/osv4j/model/V1VersionRepositoryInformation.java
 src/main/java/io/github/primelib/osv4j/model/V1VersionRepositoryInformationRepoType.java
-src/main/java/io/github/primelib/osv4j/model/V1VulnerabilityList.java
 src/main/java/io/github/primelib/osv4j/spec/DetermineVersionOperationSpec.java
 src/main/java/io/github/primelib/osv4j/spec/GetVulnByIdOperationSpec.java
 src/main/java/io/github/primelib/osv4j/spec/QueryAffectedBatchOperationSpec.java
