@@ -11,12 +11,10 @@ src/main/java/io/github/primelib/osv4j/OSVFactorySpec.java
 src/main/java/io/github/primelib/osv4j/api/OSVApi.java
 src/main/java/io/github/primelib/osv4j/api/OSVAsyncApi.java
 src/main/java/io/github/primelib/osv4j/api/OSVAsyncConsumerApi.java
-src/main/java/io/github/primelib/osv4j/api/OSVConsumerApi.java
 src/main/java/io/github/primelib/osv4j/model/OsvAffected.java
 src/main/java/io/github/primelib/osv4j/model/OsvCredit.java
 src/main/java/io/github/primelib/osv4j/model/OsvCreditType.java
 src/main/java/io/github/primelib/osv4j/model/OsvEvent.java
-src/main/java/io/github/primelib/osv4j/model/OsvPackage.java
 src/main/java/io/github/primelib/osv4j/model/OsvRange.java
 src/main/java/io/github/primelib/osv4j/model/OsvRangeType.java
 src/main/java/io/github/primelib/osv4j/model/OsvReference.java
@@ -33,8 +31,10 @@ src/main/java/io/github/primelib/osv4j/model/V1FileHash.java
 src/main/java/io/github/primelib/osv4j/model/V1Query.java
 src/main/java/io/github/primelib/osv4j/model/V1VersionMatch.java
 src/main/java/io/github/primelib/osv4j/model/V1VersionMatchList.java
+src/main/java/io/github/primelib/osv4j/model/V1VersionQuery.java
 src/main/java/io/github/primelib/osv4j/model/V1VersionRepositoryInformation.java
 src/main/java/io/github/primelib/osv4j/model/V1VersionRepositoryInformationRepoType.java
+src/main/java/io/github/primelib/osv4j/model/V1VulnerabilityList.java
 src/main/java/io/github/primelib/osv4j/spec/DetermineVersionOperationSpec.java
 src/main/java/io/github/primelib/osv4j/spec/GetVulnByIdOperationSpec.java
 src/main/java/io/github/primelib/osv4j/spec/QueryAffectedBatchOperationSpec.java
