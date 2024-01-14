@@ -7,7 +7,6 @@ gradlew.bat
 renovate.json
 settings.gradle.kts
 src/main/java/io/github/primelib/osv4j/OSVFactory.java
-src/main/java/io/github/primelib/osv4j/OSVFactorySpec.java
 src/main/java/io/github/primelib/osv4j/api/OSVApi.java
 src/main/java/io/github/primelib/osv4j/api/OSVAsyncApi.java
 src/main/java/io/github/primelib/osv4j/api/OSVAsyncConsumerApi.java
@@ -33,9 +32,10 @@ src/main/java/io/github/primelib/osv4j/model/V1FileHash.java
 src/main/java/io/github/primelib/osv4j/model/V1Query.java
 src/main/java/io/github/primelib/osv4j/model/V1VersionMatch.java
 src/main/java/io/github/primelib/osv4j/model/V1VersionMatchList.java
+src/main/java/io/github/primelib/osv4j/model/V1VersionQuery.java
 src/main/java/io/github/primelib/osv4j/model/V1VersionRepositoryInformation.java
 src/main/java/io/github/primelib/osv4j/model/V1VersionRepositoryInformationRepoType.java
+src/main/java/io/github/primelib/osv4j/model/V1VulnerabilityList.java
 src/main/java/io/github/primelib/osv4j/spec/DetermineVersionOperationSpec.java
-src/main/java/io/github/primelib/osv4j/spec/GetVulnByIdOperationSpec.java
 src/main/java/io/github/primelib/osv4j/spec/QueryAffectedBatchOperationSpec.java
 src/main/java/io/github/primelib/osv4j/spec/QueryAffectedOperationSpec.java
